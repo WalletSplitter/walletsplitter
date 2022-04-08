@@ -37,7 +37,7 @@ export default function Home() {
 
           <a target="_blank" rel="noreferrer" href="https://docs.walletsplitter.com" className={styles.card}>
             <h2 className={styles.underline}>Documentation &rarr;</h2>
-            <p>Alice has trust issues.</p>
+            <p>Where all the technical jargon resides.</p>
           </a>
         </div>
       </main>
