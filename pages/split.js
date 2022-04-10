@@ -47,7 +47,7 @@ export default function Split() {
         <main className={styles.main}>
           {isConnected ? (
             <>
-              <h1 className={styles.title}>Payment Splitter</h1>
+              <h1 className={styles.title}>Split Existing</h1>
               <div className={styles.grid}>
                 <UserInfoCard provider={provider} />
                 <SplitterAddressCard provider={provider} />

@@ -45,7 +45,7 @@ export default function Create() {
         <main className={styles.main}>
           {isConnected ? (
             <>
-              <h1 className={styles.title}>Payment Creater</h1>
+              <h1 className={styles.title}>Create New</h1>
 
               <div className={styles.grid}>
                 <UserInfoCard provider={provider} />
