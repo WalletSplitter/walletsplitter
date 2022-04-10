@@ -18,7 +18,7 @@ export default function Home() {
 
         <p className={styles.code}>An EVM agnostic wallet that splits crypto payments.</p>
         <img src="/logo.svg" alt="wallet splitter logo" width={256} height={256}></img>
-        <p className={styles.code}>Solidty contracts written by OpenZepplin.</p>
+        <p className={styles.code}>Solidity contracts written by OpenZepplin.</p>
 
         <div className={styles.grid}>
           <Link href="/create" passHref>
