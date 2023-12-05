@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Wallet{" "}
-          <a target="_blank" rel="noreferrer" href="https://docs.openzeppelin.com/contracts/2.x/api/payment">
+          <a target="_blank" rel="noreferrer" href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.4/contracts/finance/PaymentSplitter.sol">
             Splitter
           </a>
         </h1>
