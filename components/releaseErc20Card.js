@@ -26,7 +26,7 @@ export default function ReleaseErc20Card({ provider, erc20Name, erc20Shares, erc
     <div className={styles.card}>
       <h2>Claim ERC-20</h2>
       <p>Token Name: {tokenName}</p>
-      <p>Amount To Claim: {ethers.utils.formatEther(tokenShares)}</p>
+      <p>Amount To Claim: {tokenShares.toString()}</p>
       <h3 className={styles.smallButton} onClick={() => releaseErc20Tokens()}>
         Claim
       </h3>
